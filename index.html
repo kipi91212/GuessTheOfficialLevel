@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Guess the Official Level by kipi91212</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="/Geometry_Dash_Logo.png">
+</head>
+
+<body>
+  <div class="head">
+    <h1>Guess the Geometry Dash Official Level!</h1>
+    <h2>Game made by <span style="color: #2fbdbd;">kipi91212</span></h2>
+    <p class="bigtext">This is a <span style="color: #99ff00;">Geometry Dash official level guessing game</span>. You will be given a screenshot of the level and you have to guess the official level within a time limit. If you answer incorrectly or don't answer within the time limit, your game is over.</p>
+  </div>
+
+  
+  <div class="section options">
+    <p class="justtext datext">You can start playing here:</p>
+    <button class="start">Start</button><br>
+
+    <div class="optionss">
+      <span style="color: #9dfadb;"><input class="option lite" checked type="checkbox" onclick="shownexttext()"></input>Lite & Full</span>
+      <span style="color: #f7f0a6;" class="dontshow"><input class="option full" type="checkbox"></input>Don't show Full Exclusive</span>
+      <span style="color: #faa99b;"><input class="option meltdown" type="checkbox"></input>Meltdown</span>
+      <span style="color: #bbedfa;"><input class="option subzero" type="checkbox"></input>Subzero</span>
+      <span style="color: #fcc5f8;"><input class="option world" type="checkbox"></input>World</span>
+    </div>
+  </div>
+
+  
+  <div class="section game">
+    <p class="question datext">Guess this level:</p>
+    <p>Score: <span class="score">0</span></p>
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <img src="/Guess the Official Level/1/0101.jpg" class="levelimg">
+    <div class="answers">
+      <div class="gameversion lite">Lite & Full<br>
+        <button class="answer answer1">Stereo Madness</button>
+        <button class="answer answer2">Back On Track</button>
+        <button class="answer answer3">Polargeist</button>
+        <button class="answer answer4">Dry Out</button>
+        <button class="answer answer5">Base After Base</button>
+        <button class="answer answer6">Cant Let Go</button>
+        <button class="answer answer7">Jumper</button>
+        <button class="answer answer8">Time Machine</button>
+        <button class="answer answer9">Cycles</button>
+        <button class="answer answer10">Xstep</button>
+        <button class="answer answer11">Clutterfunk</button>
+        <button class="answer answer12">Theory of Everything</button>
+        <button class="answer answer13">Electroman Adventures</button>
+        <button class="answer answer14">Clubstep</button>
+        <button class="answer answer15">Electrodynamix</button>
+        <button class="answer answer16">Hexagon Force</button>
+        <button class="answer answer17">Blast Processing</button>
+        <button class="answer answer18">Theory of Everything 2</button>
+        <button class="answer answer19">Geometrical Dominator</button>
+      </div>
+
+      <div class="gameversion full">Full Exclusive<br>
+        <button class="answer answer20">Deadlocked</button>
+        <button class="answer answer21">Fingerdash</button>
+        <button class="answer answer22">Dash</button>
+        <button class="answer answer23">Explorers</button>
+      </div>
+
+      <div class="gameversion meltdown">Meltdown<br>
+        <button class="answer answer27">The Seven Seas</button>
+        <button class="answer answer28">Viking Arena</button>
+        <button class="answer answer29">Airborne Robots</button>
+      </div>
+      
+      <div class="gameversion subzero">Subzero<br>
+        <button class="answer answer27">Press Start</button>
+        <button class="answer answer28">Nock Em</button>
+        <button class="answer answer29">Power Trip</button>
+      </div>
+
+      <div class="gameversion world">World<br>
+        <button class="answer answer30">Payload</button>
+        <button class="answer answer31">Beast Mode</button>
+        <button class="answer answer32">Machina</button>
+        <button class="answer answer33">Years</button>
+        <button class="answer answer34">Frontlines</button>
+        <button class="answer answer35">Space Pirates</button>
+        <button class="answer answer36">Striker</button>
+        <button class="answer answer37">Embers</button>
+        <button class="answer answer38">Round 1</button>
+        <button class="answer answer39">Monster Dance Off</button>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
