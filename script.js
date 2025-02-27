@@ -103,11 +103,11 @@ function roll() {
   const selectedImageAlt = selectedImage.toString().padStart(2, '0');
 
   if (selectedLevel <= 5 || selectedLevel == 27 || selectedLevel == 28) {
-    image.src = `./assets/${selectedLevel}/${selectedLevelAlt}${selectedImageAlt}.jpg`
+    image.src = `/assets/${selectedLevel}/${selectedLevelAlt}${selectedImageAlt}.jpg`
   } else if (selectedLevel <= 8) {
-    image.src = `./assets/${selectedLevel}/${selectedLevelAlt}${selectedImageAlt}.PNG`
+    image.src = `/assets/${selectedLevel}/${selectedLevelAlt}${selectedImageAlt}.PNG`
   } else {
-    image.src = `./assets/${selectedLevel}/${selectedLevelAlt}${selectedImageAlt}.png`
+    image.src = `/assets/${selectedLevel}/${selectedLevelAlt}${selectedImageAlt}.png`
   }
 
   startCountdown()
