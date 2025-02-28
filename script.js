@@ -103,11 +103,19 @@ function roll() {
   const selectedImageAlt = selectedImage.toString().padStart(2, '0');
 
   if (selectedLevel <= 5 || selectedLevel == 27 || selectedLevel == 28) {
+<<<<<<< HEAD
     image.src = `./assets/${selectedLevel}/${selectedLevelAlt}${selectedImageAlt}.jpg`
   } else if (selectedLevel <= 8) {
     image.src = `./assets/${selectedLevel}/${selectedLevelAlt}${selectedImageAlt}.PNG`
   } else {
     image.src = `./assets/${selectedLevel}/${selectedLevelAlt}${selectedImageAlt}.png`
+=======
+    image.src = `https://kipi91212.github.io/GuessTheOfficialLevel/assets/${selectedLevel}/${selectedLevelAlt}${selectedImageAlt}.jpg`
+  } else if (selectedLevel <= 8) {
+    image.src = `https://kipi91212.github.io/GuessTheOfficialLevel/assets/${selectedLevel}/${selectedLevelAlt}${selectedImageAlt}.PNG`
+  } else {
+    image.src = `https://kipi91212.github.io/GuessTheOfficialLevel/assets/${selectedLevel}/${selectedLevelAlt}${selectedImageAlt}.png`
+>>>>>>> 24524eaafd4256bb3a60f441f3d25e60d81da6cc
   }
 
   startCountdown()
@@ -162,4 +170,8 @@ function startCountdown() {
       lost("time limit")
     }
   }, 1000);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 24524eaafd4256bb3a60f441f3d25e60d81da6cc
