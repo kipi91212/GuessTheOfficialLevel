@@ -1,0 +1,218 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: Pusab;
+  src: url('https://gdcolon.com/assets/Pusab.ttf');
+}
+
+body {
+  font-family: 'Pusab', sans-serif;
+  background-color: #995533;
+  color: #ffffff;
+  -webkit-text-stroke: 0.5px black;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-size: min(1.7vw, 25.5px);
+}
+
+h1 {
+  font-size: min(3.6vw, 54px);
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: min(2vw, 30px);
+  margin-top: 0px;
+  color: #ddd;
+}
+
+p {
+  font-size: min(1.7vw, 25.5px);
+}
+
+p.bigtext, div.section {
+  background-color: #bf723e;
+  border-radius: 20px;
+  border: 2px solid #7f3c1f;
+  padding: 2vh 4vw;
+  margin-left: calc(12vw - 40px);
+  margin-right: calc(12vw - 40px);
+}
+
+.levelimg {
+  width: 50vw;
+  padding: 30px;
+}
+
+.progress-container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 20px;
+  border: 2px solid #000;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: #4caf50;
+  transition: width 0.1s linear;
+}
+
+button.start {
+  width: 15vw;
+  height: 5vh;
+  margin: auto;
+  font-size: min(2vw, 30px);
+  background-color: #737d97;
+  font-family: 'Pusab', sans-serif;
+  color: #ffffff;
+  border: 3px solid white;
+  border-radius: 30px;
+}
+
+button.start:hover {
+  background-color: #7ade2d;
+}
+
+.justtext {
+  margin-top: 0px;
+}
+
+.options {
+  display: block;
+}
+
+.optionss {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+input.option {
+  width: min(2vw, 30px);
+  height: min(2vw, 30px);
+  margin-right: 0.5vw;
+  vertical-align: middle;
+}
+
+input.lite {
+  accent-color: #9dfadb;
+}
+
+input.full {
+  accent-color: #f7f0a6;
+}
+
+input.meltdown {
+  accent-color: #faa99b;
+}
+
+input.subzero {
+  accent-color: #bbedfa;
+}
+
+input.world {
+  accent-color: #fcc5f8;
+}
+
+.datext {
+  font-size: min(2vw, 30px);
+  background-color: #af622e;
+  border-radius: 20px;
+  border: 2px solid #7f3c1f;
+  padding: 10px;
+}
+
+.answer {
+  margin: auto;
+  font-size: min(1.6vw, 24px);
+  background-color: #737d97;
+  font-family: 'Pusab', sans-serif;
+  color: #ffffff;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 2px 2vw;
+}
+
+.gameversion {
+  border: 2px solid #7f3c1f;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.lite {
+  border-color: #015e3f;
+  background-color: #029c68;
+  color: #9dfadb;
+}
+
+.lite .answer {
+  background-color: #27c390;
+}
+
+.lite .answer:hover {
+  background-color: #198c65;
+}
+
+.full {
+  border-color: #757101;
+  background-color: #b3a300;
+  color: #f7f0a6;
+}
+
+.full .answer {
+  background-color: #bfb763;
+}
+
+.full .answer:hover {
+  background-color: #948b2b;
+}
+
+.meltdown {
+  border-color: #751501;
+  background-color: #8f1500;
+  color: #faa99b;
+}
+
+.meltdown .answer {
+  background-color: #bf6552;
+}
+
+.meltdown .answer:hover {
+  background-color: #8a2f1c;
+}
+
+.subzero {
+  border-color: #014a5e;
+  background-color: #007291;
+  color: #bbedfa;
+}
+
+.subzero .answer {
+  background-color: #70bccf;
+}
+
+.subzero .answer:hover {
+  background-color: #21758a;
+}
+
+.world {
+  border-color: #700067;
+  background-color: #ab009d;
+  color: #fcc5f8;
+}
+
+.world .answer {
+  background-color: #cf63c7;
+}
+
+.world .answer:hover {
+  background-color: #9c2293;
+}
